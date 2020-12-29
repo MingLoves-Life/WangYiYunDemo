@@ -1,0 +1,269 @@
+@import "./../../remax-styles.wxss";
+.backGround___JWVt2 {
+  padding-bottom: 100rpx;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.bg___1xPc7 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: blur(25rpx);
+}
+.song___3upJy {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.song___3upJy .logo___3rl3M {
+  font-size: 31rpx;
+  font-weight: 300;
+}
+.song___3upJy .block___2lUgw {
+  width: 100%;
+  height: 200rpx;
+}
+.song___3upJy .play___12D2l {
+  display: flex;
+  justify-content: center;
+}
+
+.song___3upJy .vinyl___P-QRU {
+  width: 450rpx;
+  height: 450rpx;
+  border-radius: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.song___3upJy .pic___2kE1P {
+  width: 290rpx;
+  height: 290rpx;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: picRotate___6RcyC 10s linear infinite;
+}
+@keyframes picRotate___6RcyC {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.song___3upJy .picRotate___6RcyC {
+  width: 290rpx;
+  height: 290rpx;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.song___3upJy .playIcon___3oKDL {
+  width: 130rpx;
+  height: 130rpx;
+  position: absolute;
+}
+.song___3upJy .lyricOut___1ibs8 {
+  height: 300rpx;
+  overflow: hidden;
+  margin-top: 50rpx;
+  position: relative;
+}
+@keyframes lyricMove___32Fxx {
+  from {
+    transform: translate(-50%,0%);
+  }
+  to {
+    transform: translate(-50%,-100%);
+  }
+}
+.song___3upJy .lyric____Xhkv {
+  position: absolute;
+  animation: lyricMove___32Fxx  linear 1;
+  left: 50%;
+  /* top: 60%; */
+  transform: translate(-50%,0%);
+  white-space: nowrap;
+  top: 120rpx;
+  transition: 0.25s linear;
+}
+.song___3upJy .lyricList___3z-Jj {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10rpx 0 10rpx 0;
+  color: #cbcccd;
+  height: 48rpx;
+}
+.song___3upJy .lyricListCho___lfvsw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10rpx 0 10rpx 0;
+  color: #7e7b7b;
+}
+.song___3upJy .viewLyric___3wiAi {
+  font-size: 24rpx;
+  text-decoration-line: underline;
+  color: #f5f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.song___3upJy .share___3TdwA {
+  width: 300rpx;
+  height: 50rpx;
+  color: #f5f6f6;
+  border-radius: 50rpx;
+  font-size: 30rpx;
+  border: 1rpx solid #9d9e9e;
+  margin: 0 auto;
+  margin-top: 50rpx;
+  margin-bottom: 70rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.song___3upJy .like___1bO0x {
+  color: #f5f6f6;
+  margin-bottom: 100rpx;
+}
+/* .song .likeToo {
+  float: left;
+} */
+.song___3upJy .key___2aAPe {
+  float: right;
+  width: 136rpx;
+  height: 37rpx;
+  border-radius: 50rpx;
+  border: 1rpx solid #9d9d9d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.song___3upJy .keyPlay___3KTZT {
+  width: 28rpx;
+  height: 28rpx;
+}
+.song___3upJy .words___lezhK {
+  font-size: 24rpx;
+}
+.song___3upJy .likeSong___20lc1 {
+  margin-bottom: 50rpx;
+  display: flex;
+  align-items: center;
+}
+.song___3upJy .likeSongUrl___1AjwV {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 30rpx;
+}
+.song___3upJy .likeSongContext___qsLZ3 {
+  flex: 1;
+  margin-left: 20rpx;
+}
+.song___3upJy .likeSongName___uDSfI {
+  font-size: 30rpx;
+  color: #cbcccd;
+  display: block;
+}
+.song___3upJy .likeSongSinger___2ogJK {
+  font-size: 20rpx;
+  color: #6d6e6f;
+  display: block;
+}
+.song___3upJy .likeSongPlay___5jgR_ {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 20rpx;
+}
+.song___3upJy .comment___28eja {
+  margin-top: 50rpx;
+  color: #f5f6f6;
+}
+.song___3upJy .message___1HFhz {
+  margin-top: 50rpx;
+  display: flex;
+  align-items: center;
+}
+.song___3upJy .messageUrl___2XrJJ {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 20rpx;
+}
+.song___3upJy .messageContext___3TGGb {
+  flex: 1;
+  margin-left: 20rpx;
+}
+.song___3upJy .messageName___2xVn6 {
+  font-size: 30rpx;
+  color: #cbcccd;
+  display: block;
+}
+.song___3upJy .messageTime___1v_w8 {
+  font-size: 20rpx;
+  color: #6d6e6f;
+  display: block;
+}
+.song___3upJy .messageGood___YLPtF {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.song___3upJy .likedCount___2ohEv {
+  font-size: 23rpx;
+  transform: translateX(-46rpx);
+}
+.song___3upJy .likedIcon___2kWdY {
+  width: 30rpx;
+  transform: translateY(-5rpx);
+  position: absolute;
+}
+
+.song___3upJy .detail___IX-Ig {
+  margin-left: 100rpx;
+  margin-right: 30rpx;
+  margin-top: 18rpx;
+  white-space: pre-wrap;
+  margin-bottom: 40rpx;
+  border-bottom: 1rpx solid #726f6f;
+  color: #f5f6f6;
+  padding-bottom: 40rpx;
+}
+.bottom___3k6lZ {
+  width: 450rpx;
+  height: 60rpx;
+  font-size: 26rpx;
+  color: #f5f6f6;
+  border-radius: 50rpx;
+  background-color: #7e7b7b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 5%;
+  margin: 0 auto;
+}
+

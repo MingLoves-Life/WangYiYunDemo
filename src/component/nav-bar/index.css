@@ -1,0 +1,32 @@
+.navBar {
+  position: relative;
+  margin-bottom: 30px;
+  z-index: 999;
+}
+
+.navBar .block {
+  position: fixed;
+  border: 1px solid #eff0f0;
+  border-radius: 50px;
+  background-color: #feffff;
+}
+.navBar .icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navBar .left {
+  width: 35px;
+  height: 35px;
+  margin-left: 15px;
+}
+.navBar .right {
+  width: 35px;
+  height: 35px;
+  margin-right: 17px;
+}
+.navBar .title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

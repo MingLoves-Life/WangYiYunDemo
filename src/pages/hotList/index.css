@@ -1,0 +1,123 @@
+.outside {
+  height: 100%;
+  background-attachment: fixed;
+}
+.wrapper {
+  position: relative;
+}
+.wrapper .ListUrl {
+  width: 250px;
+  height: 250px;
+  margin-top: 40px;
+  margin-left: 30px;
+  border-radius: 50px;
+  z-index: 0;
+}
+.wrapper .word {
+  position: absolute;
+  top: 40px;
+  left: 40%;
+}
+.wrapper .logo {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.wrapper .title {
+  color: #dde3fb;
+}
+.wrapper .titleLogo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.wrapper .titleWord {
+  margin-left: 5px;
+  font-size: 25px;
+  color: #b6cae6;
+}
+.wrapper .titleDes {
+  margin-top: 25px;
+  margin-right: 25px;
+  font-size: 19px;
+  color: #b6cae6;
+}
+.wrapper .share {
+  width: 300px;
+  height: 60px;
+  border-radius: 100px;
+  font-size: 30px;
+  color: #b6cae6;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.outside .under {
+  border-radius: 50px;
+  background-color: #fff;
+  position: sticky;
+  top: 15%;
+  width: 100%;
+}
+.under .upNav {
+  margin: 0 30px 0 30px;
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  background-color: #fff;
+}
+.under .underUrl {
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+  background-color: #fff;
+}
+.under .underWord {
+  font-size: 30px;
+}
+.under .underSmallWord {
+  font-size: 25px;
+  color: #b6cae6;
+}
+.under .songsList {
+  margin: 50px 30px 0 30px;
+}
+.under .song {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+.under .songIndex {
+  width: 90px;
+  height: 90px;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 90px;
+  color: #b6cae6;
+}
+.under .songContext {
+  flex: 1;
+  margin-left: 20px;
+}
+.under .songName {
+  font-size: 30px;
+  color: #cbcccd;
+  display: block;
+}
+.under .tagIcon {
+  width: 33px;
+  height: 18px;
+  transform: translateY(3rpx);
+  margin-right: 1px;
+}
+.under .songSinger {
+  font-size: 20px;
+  color: #6d6e6f;
+}
+.under .songPlay {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}

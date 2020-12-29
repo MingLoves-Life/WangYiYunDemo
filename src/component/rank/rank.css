@@ -1,0 +1,27 @@
+.rankBox {
+    height: 30%;
+    margin-left: 3%;
+    margin-right: 3%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+  }
+  
+  .rankBox .rankImg{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: pink;
+  }
+  .rankBox .rankWordBox{
+    width: 55%;
+    margin-left: 3%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .rankBox .rankWord{
+    font-size: 28px;
+    margin-bottom: 10px;
+    display: block;
+  }

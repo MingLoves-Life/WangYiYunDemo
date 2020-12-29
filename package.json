@@ -1,0 +1,23 @@
+{
+  "name": "music",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Remax Project",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Ming <229417486@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "remax build -t wechat -w",
+    "build": "cross-env NODE_ENV=production remax build -t wechat"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "react": "^16.14.0",
+    "remax": "^2.9.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "typings-for-css-modules-loader": "^1.7.0"
+  }
+}

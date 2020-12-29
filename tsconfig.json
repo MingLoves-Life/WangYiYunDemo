@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "rootDir": "src",
+    "baseUrl": "./",
+    "allowJs": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "outDir": "./dist",
+    "lib": ["DOM", "ES2015"],
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  },
+  "include": ["src/**/*", "typings/**/*","typed-css.d.ts"]
+}

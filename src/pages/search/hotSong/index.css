@@ -1,0 +1,39 @@
+.searchPage {
+    height: 1000px;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .searchPage .item {
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    justify-content: start;
+  }
+  .searchPage .index {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .searchPage .word {
+    margin-top: 8px;
+  }
+  .searchPage .icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+  .searchPage .content {
+    font-size: 20px;
+    color: #c7c8c9;
+  }
+  .searchPage .score {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    color: #DDDEDF;
+    transform: translateY(-50%);
+    font-size: 25px;
+  }
+  

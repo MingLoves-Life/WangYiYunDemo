@@ -1,0 +1,125 @@
+@import "./../../remax-styles.wxss";
+.outside___53O-- {
+  height: 100%;
+  background-attachment: fixed;
+}
+.wrapper___3Irce {
+  position: relative;
+}
+.wrapper___3Irce .ListUrl___2B_vQ {
+  width: 250rpx;
+  height: 250rpx;
+  margin-top: 40rpx;
+  margin-left: 30rpx;
+  border-radius: 50rpx;
+  z-index: 0;
+}
+.wrapper___3Irce .word___1jihQ {
+  position: absolute;
+  top: 40rpx;
+  left: 40%;
+}
+.wrapper___3Irce .logo___2L0D7 {
+  display: flex;
+  align-items: center;
+  margin-top: 10rpx;
+}
+.wrapper___3Irce .title___30RUS {
+  color: #dde3fb;
+}
+.wrapper___3Irce .titleLogo___1rc5l {
+  width: 35rpx;
+  height: 35rpx;
+  border-radius: 50%;
+}
+.wrapper___3Irce .titleWord___gTMxv {
+  margin-left: 5rpx;
+  font-size: 25rpx;
+  color: #b6cae6;
+}
+.wrapper___3Irce .titleDes___3Fb_z {
+  margin-top: 25rpx;
+  margin-right: 25rpx;
+  font-size: 19rpx;
+  color: #b6cae6;
+}
+.wrapper___3Irce .share___1USKR {
+  width: 300rpx;
+  height: 60rpx;
+  border-radius: 100rpx;
+  font-size: 30rpx;
+  color: #b6cae6;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 30rpx auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.outside___53O-- .under___3Irp8 {
+  border-radius: 50rpx;
+  background-color: #fff;
+  position: sticky;
+  top: 15%;
+  width: 100%;
+}
+.under___3Irp8 .upNav___2gxXd {
+  margin: 0 30rpx 0 30rpx;
+  display: flex;
+  align-items: center;
+  padding-top: 30rpx;
+  background-color: #fff;
+}
+.under___3Irp8 .underUrl___35E9c {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 30rpx;
+  background-color: #fff;
+}
+.under___3Irp8 .underWord___3nFfb {
+  font-size: 30rpx;
+}
+.under___3Irp8 .underSmallWord___Y1Hys {
+  font-size: 25rpx;
+  color: #b6cae6;
+}
+.under___3Irp8 .songsList___24WRz {
+  margin: 50rpx 30rpx 0 30rpx;
+}
+.under___3Irp8 .song___2woMd {
+  margin-bottom: 50rpx;
+  display: flex;
+  align-items: center;
+}
+.under___3Irp8 .songIndex___m7JzZ {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 30rpx;
+  text-align: center;
+  line-height: 90rpx;
+  color: #b6cae6;
+}
+.under___3Irp8 .songContext___lCmtM {
+  flex: 1;
+  margin-left: 20rpx;
+}
+.under___3Irp8 .songName___1HDue {
+  font-size: 30rpx;
+  color: #cbcccd;
+  display: block;
+}
+.under___3Irp8 .tagIcon___1HzjP {
+  width: 33rpx;
+  height: 18rpx;
+  transform: translateY(3rpx);
+  margin-right: 1rpx;
+}
+.under___3Irp8 .songSinger___2OArH {
+  font-size: 20rpx;
+  color: #6d6e6f;
+}
+.under___3Irp8 .songPlay____DZG- {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 20rpx;
+}
+

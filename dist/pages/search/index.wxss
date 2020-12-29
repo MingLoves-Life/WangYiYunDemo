@@ -1,0 +1,82 @@
+@import "./../../remax-styles.wxss";
+.searchPage___2jKrD {
+    height: 1000rpx;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .searchPage___2jKrD .item___2mFFq {
+    margin-bottom: 10rpx;
+    position: relative;
+    display: flex;
+    justify-content: start;
+  }
+  .searchPage___2jKrD .index___3YaqY {
+    width: 100rpx;
+    height: 100rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .searchPage___2jKrD .word___3s2EB {
+    margin-top: 8rpx;
+  }
+  .searchPage___2jKrD .icon___1JGpp {
+    width: 30rpx;
+    height: 30rpx;
+    margin-left: 10rpx;
+  }
+  .searchPage___2jKrD .content___2K69- {
+    font-size: 20rpx;
+    color: #c7c8c9;
+  }
+  .searchPage___2jKrD .score___3DtBy {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    color: #DDDEDF;
+    transform: translateY(-50%);
+    font-size: 25rpx;
+  }
+  
+.searchSongList___r2iJx {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.searchSongList___r2iJx .item___1Tv6Q {
+  margin-bottom: 20rpx;
+  padding-bottom: 15rpx;
+  border-bottom: 1rpx solid #f4f5f5;
+  position: relative;
+}
+.searchSongList___r2iJx .songName___3j-1- {
+  width: 80%;
+  font-size: 30rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.searchSongList___r2iJx .singer___3syVX {
+  font-size: 20rpx;
+  color: #b1b2b4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.searchSongList___r2iJx .tagIcon___2octB {
+  width: 33rpx;
+  height: 18rpx;
+  transform: translateY(3rpx);
+  margin-right: 1rpx;
+}
+
+.searchSongList___r2iJx .icon___3Y2CL {
+  position: absolute;
+  right: 10rpx;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.searchSongList___r2iJx .play___1Itm3 {
+  width: 55rpx;
+  height: 55rpx;
+}
+

@@ -1,0 +1,91 @@
+.navBar___1tgOA {
+  position: relative;
+  margin-bottom: 30rpx;
+  z-index: 999;
+}
+
+.navBar___1tgOA .block___3iWaJ {
+  position: fixed;
+  border: 1rpx solid #eff0f0;
+  border-radius: 50rpx;
+  background-color: #feffff;
+}
+.navBar___1tgOA .icon___2YVn0 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navBar___1tgOA .left___103Dz {
+  width: 35rpx;
+  height: 35rpx;
+  margin-left: 15rpx;
+}
+.navBar___1tgOA .right___38aK3 {
+  width: 35rpx;
+  height: 35rpx;
+  margin-right: 17rpx;
+}
+.navBar___1tgOA .title___2Dm5o {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.searchBox___fqUn3 {
+    width: 100%;
+    height: 70rpx;
+    margin-bottom: 5%;
+  }
+  
+  .searchBox___fqUn3 .searchOutside___2FUfr {
+    height: 70rpx;
+    background-color: #f8f9f9;
+    border-radius: 30rpx;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .searchBox___fqUn3 .searchIcon___1vPrf {
+    width: 40rpx;
+    height: 40rpx;
+    color: #c6c7c8;
+    margin-left: 3%;
+  }
+  .searchBox___fqUn3 .searchText___JbAGu {
+    width: 100%;
+    margin-left: 3%;
+    text-align: left;
+    background-color: #f8f9f9;
+  }
+  
+  
+.rankBox___1oHhF {
+    height: 30%;
+    margin-left: 3%;
+    margin-right: 3%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+  }
+  
+  .rankBox___1oHhF .rankImg___dtLe0{
+    width: 200rpx;
+    height: 200rpx;
+    float: left;
+    background-color: pink;
+  }
+  .rankBox___1oHhF .rankWordBox___3lWDT{
+    width: 55%;
+    margin-left: 3%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .rankBox___1oHhF .rankWord___33KdA{
+    font-size: 28rpx;
+    margin-bottom: 10rpx;
+    display: block;
+  }

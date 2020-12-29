@@ -1,0 +1,41 @@
+.searchSongList {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.searchSongList .item {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #f4f5f5;
+  position: relative;
+}
+.searchSongList .songName {
+  width: 80%;
+  font-size: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.searchSongList .singer {
+  font-size: 20px;
+  color: #b1b2b4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.searchSongList .tagIcon {
+  width: 33px;
+  height: 18px;
+  transform: translateY(3rpx);
+  margin-right: 1px;
+}
+
+.searchSongList .icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.searchSongList .play {
+  width: 55px;
+  height: 55px;
+}
