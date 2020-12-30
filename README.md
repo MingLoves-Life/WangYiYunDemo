@@ -1,9 +1,28 @@
-# Remax Wechat
+# 应用技术栈
 
-使用 Remax 开发微信小程序。
+前端：remax + typeScript
+后端：网易云开放 Api [文档链接](https://binaryify.github.io/NeteaseCloudMusicApi)
 
-## Getting Start
+## 目录结构
 
+> ├── package.json
+> ├── dist // 打包后的文件
+> ├── public // 静态资源(没用上)
+> └── src // 组件
+> &emsp;&emsp;&emsp;&emsp; ├── common // 公共的资源或者方法
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ├── request // 请求数据的方法
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; └── icon.ts // 项目中的使用的 icon
+> &emsp;&emsp;&emsp;&emsp; ├── component // 公共组件
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ├── input // 搜索框
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ├── nav-bar // 上方胶囊导航栏
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; └── rank // 排行榜
+> ├── pages // 具体页面
+> ├── app.config.js // 应用配置
+> └── app.js // remax 默认入口文件
+
+## 基本功能
+榜单、搜索、歌曲播放（参照真实网易云小程序）
+## 使用方法
 安装依赖
 
 ```bash
